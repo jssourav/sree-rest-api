@@ -1,0 +1,19 @@
+{
+  "name": "rest-api-basics",
+  "version": "1.0.0",
+  "description": "\"it will be fun\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sourav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.1",
+    "nodemon": "^2.0.20"
+  }
+}
