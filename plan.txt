@@ -22,7 +22,7 @@ Response:
 POST /v1/accounts 
 Schema:
     _id: 1234,
-    name: 'Sourav',
+    name: 'Sourav nag',
     address: {
         country: 'US',
         locality: 'test',
