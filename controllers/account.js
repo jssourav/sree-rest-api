@@ -1,6 +1,6 @@
 exports.getAccount = (req, res, next) => {
   // db operation
-  res.json({
+  res.status(200).json({
     id: 123,
     name: "Sourav",
     role: "Software Dev",

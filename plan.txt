@@ -1,0 +1,38 @@
+Create Rest API for the following endpoints:
+
+GET /v1/accounts 
+Schema:
+    _id: 123,
+    name: 'Sourav',
+    address: {
+        country: 'US',
+        locality: 'test',
+        postalCode: '700120'
+    },
+    enabled: ture,
+    telephone: '+91 8820459878',
+    sex: 'Male',
+    createdAt: date,
+    eTag: (some random id)
+
+Response:
+    created - statusCode 200
+
+=====================================
+POST /v1/accounts 
+Schema:
+    _id: 123,
+    name: 'Sourav',
+    address: {
+        country: 'US',
+        locality: 'test',
+        postalCode: '700120'
+    },
+    enabled: ture,
+    telephone: '+91 8820459878',
+    sex: 'Male',
+    createdAt: date,
+    eTag: (some random id)
+
+Response:
+    _id: 123 - statusCode 204
